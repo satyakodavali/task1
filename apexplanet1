@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Basics of Web Development</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f8ff;
+            color: #003f5c;
+        }
+        h1 {
+            color: #2f4b7c;
+        }
+        p {
+            font-size: 18px;
+        }
+        button {
+            background-color: #2f4b7c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #465881;
+        }
+    </style>
+</head>
+<body>
+    <h1>Basics of Web Development</h1>
+    <p>This is a simple webpage created to practice HTML, CSS, and JavaScript.</p>
+    <img src="https://via.placeholder.com/300x150" alt="Placeholder Image" />
+    <p>For more info, visit <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a>.</p>
+
+    <button onclick="showAlert()">Click me!</button>
+
+    <script>
+        function showAlert() {
+            alert("Hello! This is your JavaScript alert.");
+        }
+    </script>
+</body>
+</html>
